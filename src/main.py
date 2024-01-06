@@ -11,13 +11,13 @@ wordle_game.pick_word()
 
 # Fonts
 with dpg.font_registry():
-    main_font = dpg.add_font("src/fonts/libre_franklin/LibreFranklin-Black.ttf", 40)
-    link_font = dpg.add_font("src/fonts/libre_franklin/LibreFranklin-semibold.ttf", 15)
+    main_font = dpg.add_font("fonts/libre_franklin/LibreFranklin-Black.ttf", 40)
+    link_font = dpg.add_font("fonts/libre_franklin/LibreFranklin-semibold.ttf", 15)
 
-    keyboard_font = dpg.add_font("src/fonts/libre_franklin/LibreFranklin-Bold.ttf", 20)
-    keyboard_action_font = dpg.add_font("src/fonts/libre_franklin/LibreFranklin-Bold.ttf", 15)
+    keyboard_font = dpg.add_font("fonts/libre_franklin/LibreFranklin-Bold.ttf", 20)
+    keyboard_action_font = dpg.add_font("fonts/libre_franklin/LibreFranklin-Bold.ttf", 15)
 
-    logo_font = dpg.add_font("src/fonts/bevan/Bevan-Regular.ttf", 50)
+    logo_font = dpg.add_font("fonts/bevan/Bevan-Regular.ttf", 50)
 
 # Logo
 def _logo(text):
@@ -175,7 +175,7 @@ with dpg.handler_registry():
     dpg.add_key_press_handler(callback=wordle_game.key_press_handler)
 
 
-dpg.create_viewport(width=552, height=772, title="Wordle.py", small_icon="src/appicon.ico", large_icon="src/appicon.ico")
+dpg.create_viewport(width=552, height=772, title="Wordle.py", small_icon="appicon.ico", large_icon="appicon.ico")
 dpg.setup_dearpygui()
 dpg.show_viewport()
 dpg.start_dearpygui()
