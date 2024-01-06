@@ -175,7 +175,7 @@ with dpg.handler_registry():
     dpg.add_key_press_handler(callback=wordle_game.key_press_handler)
 
 
-dpg.create_viewport(width=552, height=772, title="Wordle.py", small_icon="appicon.ico", large_icon="appicon.ico") # 775
+dpg.create_viewport(width=552, height=772, title="Wordle.py", small_icon="src/appicon.ico", large_icon="src/appicon.ico")
 dpg.setup_dearpygui()
 dpg.show_viewport()
 dpg.start_dearpygui()
