@@ -3,8 +3,6 @@ import webbrowser
 from functions import *
 from themes import setup_themes
 
-# To-do: 1. Loose state, 2. Custom error pop up whit dearpygui_animate.
-
 dpg.create_context()
 
 setup_themes()
