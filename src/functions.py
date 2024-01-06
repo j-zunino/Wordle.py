@@ -1,11 +1,8 @@
-# Func.py
 import dearpygui.dearpygui as dpg
 import threading
 import random
 import string
 import time
-
-
 
 class WordleGame:
     def __init__(self):
@@ -52,7 +49,7 @@ class WordleGame:
             dpg.bind_item_theme(f"{i}", "_keyboard_btn_theme")
 
     def pick_word(self):
-        with open("src/valid_words.txt", "r") as file:
+        with open("valid_words.txt", "r") as file:
             words_list = file.readlines()
             self.valid_words = [words.rstrip("\n").upper() for words in words_list]
             self.random_word = random.choice(self.valid_words)
