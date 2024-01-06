@@ -18,11 +18,15 @@ Simple Python clone of the web-based game _[Wordle](https://www.nytimes.com/game
 
         git clone https://github.com/Glouwhy/Wordle.py
 
-2.  Install dearpygui
+2. Go to the src folder
+
+       cd src
+
+3.  Install dearpygui
 
         pip install dearpygui
 
-3.  Run main.py
+4.  Run main.py
 
         python main.py
 
