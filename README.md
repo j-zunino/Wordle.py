@@ -4,7 +4,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://www.mit.edu/~amini/LICENSE.md)
 
-## Wordle.py
+# Wordle.py
 
 Simple Python clone of the web-based game _[Wordle](https://www.nytimes.com/games/wordle/index.html)_ by Josh Wardle, created using _[dearpygui](https://github.com/hoffstadt/DearPyGui)_ framework.
 
@@ -16,11 +16,11 @@ Simple Python clone of the web-based game _[Wordle](https://www.nytimes.com/game
 
 1.  Clone or download the repository
 
-        git clone https://github.com/Glouwhy/Wordle.py
+        git clone https://github.com/j-zunino/Wordle.py
 
-2. Go to the src folder
+2.  Go to the folder
 
-       cd src
+        cd Wordle.py
 
 3.  Install dearpygui
 
@@ -30,13 +30,11 @@ Simple Python clone of the web-based game _[Wordle](https://www.nytimes.com/game
 
         python main.py
 
-## Libraries used
+## To-do
 
-- _[dearpygui](https://github.com/hoffstadt/DearPyGui)_ (1.10.1)
-- webbrowser
-- threading
-- random
-- string
+- Error handling
+- Spanish translation
+- Rework functions.py
 
 ## Credits
 
