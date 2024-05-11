@@ -204,8 +204,8 @@ class WordleGame:
                     dpg.set_item_label(button_to_update, key_pressed)
                     self.button_index += 1
                     self.buttons_dict[self.button_index - 1] = button_to_update
-                    print(f"Letter: {key_pressed}, added to button #{
-                          self.button_index} in row {self.row_index}")
+                    print(f"""Letter: {key_pressed}, added to button #{
+                          self.button_index} in row {self.row_index}""")
                     if self.button_index == self.COLS:
                         print("Row completed!")
         else:
